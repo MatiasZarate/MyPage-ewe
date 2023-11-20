@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <title> CATS </title>
+     <link rel="stylesheet" href="../../css/cat.css" >
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script src="https://kit.fontawesome.com/8d5432346c.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="bodydos">
+        <div class="caja" align="center"> 
+        <header class="header"> 
+            <h1> Pagina exclusivamente de gatos </h1> 
+        </header>
+        <banner class="bannerDos"> 
+            <br> 
+        </banner>
+        <main class="main"> 
+            <h1> <i class="fa-solid fa-cat"></i> </h1>
+
+            <div class="cajita" width="200px"> 
+                <h1 > Gato cool </h1> 
+                <img src="<%= gifUno %>" alt="Gif" width="250px" height="250px">
+            </div>
+            <div class="cajita" width="200px"> 
+                <h1 > Gato tonto </h1> 
+                <img src="<%= gifDos %>" alt="Gif" width="250px" height="250px">
+            </div>
+            <div class="cajita" width="200px"> 
+                <h1 > Gato enojao </h1> 
+                <img src="<%= gifTres %>" alt="Gif" width="250px" height="250px">
+            </div>
+            <br><br>
+            <button class="button-1"> <a href="/cat" style="color:#FFFFFF">  Actualizar  </a> </button>
+            <button id="sorpresa" class="button-1">  Sorpresa  </button>
+            <button class="button-1"> <a href="/cargaVideo" style="color:#FFFFFF">  Cargar video  </a> </button>
+            <button class="button-1"> <a href="/listaVideos" style="color:#FFFFFF">  Lista de videos  </a> </button>
+            <br><br>
+            <iframe class="iframe" width="450" height="315" align="left" src="https://www.youtube.com/embed/7cQs9qiK2Os?si=7h_9LNhOLhYFTIid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <iframe class="iframe" width="450" height="315" align="right" src="https://www.youtube.com/embed/J---aiyznGQ?si=OtmDEAu4Mdy72v-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h1><i class="fa-solid fa-shield-cat"></i></h1><h1><i class="fa-solid fa-shield-cat"></i></h1><h1><i class="fa-solid fa-shield-cat"></i></h1><h1><i class="fa-solid fa-shield-cat"></i></h1><h1><i class="fa-solid fa-shield-cat"></i></h1>
+            <br><br><br>
+            <button class="button-1"> <a href="<%= videoRandom.link %>" target="_blank" style="color:#FFFFFF">  Tocar para video random ;3 </a> </button> 
+            <br><br><br>
+            <div class="cajita" > 
+                <form id="catForm" method="POST">
+                    <label>Quieres un gato con un texto personalizado? Ingresa el texto aquí</label>
+                    <input type="text" id="catText" name="texto" required>
+                    <button type="submit">Crear</button>
+                </form>
+                <p> (no recomendable texto largo ni espacios en blanco al final) </p>
+            </div> 
+               <h1> <i class="fa-brands fa-github"></i> </h1>
+               <br>
+            <button class="button-1"><a href="/" style="color:#FFFFFF">  regresar a la pagina principal </a></button>     
+                      <div id="gato"></div>
+                      <div id="muro"></div>
+        </main>
+        <br><br>
+        <footer class="footer">  
+            <h2> Keep walking </h2>
+        </footer>
+    </div>
+    <script src="/js/scriptCat.js"> </script>
+    </body>
+</html>

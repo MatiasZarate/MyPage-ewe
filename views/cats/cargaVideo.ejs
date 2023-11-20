@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <title> Carga video </title>
+     <link rel="stylesheet" href="../../css/cat.css" >
+    </head>
+    <body class="bodydos">
+        <div class="caja" align="center"> 
+        <header class="header"> 
+            <h1> Carga de videos </h1> 
+        </header>
+        <banner class="bannerDos"> 
+            <br>
+        </banner>
+        <main class="main"> 
+            <h1> Sube videos para la api de gatitos </h1>
+            <div class="cajita" > 
+            <form action="/cargaVideo" method="post" id="cargaVideo"> 
+                    <label>Nombre del video </label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <br><br>
+                    <label>Link del video </label>
+                    <input type="text" name="link" id="link" required>
+                    <br><br>
+                    <button type="submit" class="button-1" > Enviar </button>
+            </div>
+            </form>
+        <br><br>
+            <button class="button-1"><a href="/cat" style="color:#FFFFFF"> regresar a la pagina de gatos </a></button>
+        </main>
+        <footer class="footer">  
+            <h2> Keep walking </h2>
+        </footer>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1698761455/slendy_epa6tn.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.header{
+    background-color: aliceblue;
+}
+.banner{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1698952459/bannerjeff_p2smw2.jpg") !important;
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 950px;
+    height: 185px;
+}
+
+.main{
+    background-color: aliceblue;
+}
+.footer{
+    
+    background-color: aliceblue;
+}
+
+
+.caja{
+    border: solid 5px black;
+    background-color: aliceblue ;
+    width: 75%; 
+}
+
+.mosqueteros{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.cajita {
+    background-color: azure;
+    border: 5px solid black;
+    box-sizing: content-box;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+}
+@media (max-width:360px )/*celulares chiquitos*/{
+    body{
+          .caja{
+            flex-wrap: wrap;
+            width: 100% !important;
+            align-items: center;
+          .cajita{
+            flex-wrap: nowrap;
+            width: 100% !important;
+            align-items: center;
+          }
+          .banner {
+            width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+            height: auto; /* Ajustar la altura automáticamente */
+        }
+        .iframe{
+            width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+            height: auto; /* Ajustar la altura automáticamente */
+        }
+    }
+    }
+}
+
+@media (max-width:880px )/*tablets*/{
+    body{
+          .caja{
+            flex-wrap: wrap;
+            width: 75%;
+            align-items: center;
+          .seccion{
+            flex-wrap: wrap;
+            width: 100%;
+            align-items: center;
+          }
+          .banner {
+            width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+            height: auto; /* Ajustar la altura automáticamente */
+        }
+        .iframe{
+            width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+            height: auto; /* Ajustar la altura automáticamente */
+        }
+    }
+    }
+}
+
+/*@media (min-width: 880px){
+       
+    .main{
+        font-size: 70%;
+        display: flex;
+        justify-content: center;
+    }  
+}*/

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <title> Lista de videos </title>
+     <link rel="stylesheet" href="../../css/cat.css" >
+    </head>
+    <body class="bodydos">
+        <div class="caja" align="center"> 
+        <header class="header"> 
+            <h1> Lista de videos  </h1> 
+        </header>
+        <banner class="bannerDos"> 
+            <br>
+        </banner>
+        <main class="main"> 
+            <h1> Lista de videos de la api de gatitos </h1>
+            
+            <% video.forEach(video=>{ %>
+            <br>
+            <div class="cajita2" > 
+            <h2> <%= video.nombre %> </h2>
+            <h2> <%= video.link %> </h2>           
+            <button class="button-1"> <a href="<%= video.link %>" target="_blank" style="color:#FFFFFF">Ver en YouTube</a> </button>
+            <br><br>
+            
+              <form action="delete/<%= video.id %>?_method=delete" method="post">
+                <button class="btn btn-outline-danger button-1" type="submit"> Borrar </button>
+                <form action="/delete/<%= video.id %>" method="post">
+                  <input type="hidden" name="_method" value="delete">
+                </form>
+            </div>
+            <br>
+            <%  }) %>
+            <br><br>
+            <br><br>
+      
+            <button class="button-1"><a href="/cat" style="color:#FFFFFF"> regresar a la pagina de gatos </a></button>
+        </main>
+        <footer class="footer">  
+            <h2> Keep walking  </h2>
+        </footer>
+    </div>
+    <script src="js/scriptCat.js"> </script> 
+    </body>
+</html>
