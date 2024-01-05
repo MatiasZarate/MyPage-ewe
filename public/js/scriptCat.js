@@ -7,7 +7,7 @@ let enviar = document.getElementById('enviar')
 
 
 sorpresa.addEventListener("click", function(){
-    Swal.fire({
+    Swal.fire({ 
         title: "Gato largo >:D",
         imageUrl: "https://res.cloudinary.com/dduyxqrqt/image/upload/v1699711806/1699711800535.jpg",
         imageHeight: 1500,

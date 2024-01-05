@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+     <meta charset="utf-8">
+     <title> Nostalgia </title>
+     <link rel="stylesheet" href="../../css/nostalgia/web.css" >
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script src="https://kit.fontawesome.com/8d5432346c.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="bodydos">
+        <div class="caja" align="center"> 
+        <header class="header"> 
+            <h1> Páginas relacionadas con la nostalgia de admin :p </h1> 
+        </header>
+        <banner class="banner"> 
+            <br> 
+        </banner>
+        <main class="main"> 
+            <h1> Badger Badger Badger </h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hGlyFc79BUE?si=bXnGUQ78luesLNNv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <button class="button-1"><a href="/nostalgia" style="color:#FFFFFF">  regresar a la pagina principal </a></button>
+        <br> <br>
+            <button id="badgers"> <h1>  Badger? </h1></button>
+            <button id="mushrooms"> <h1>  Mushroom? </h1></button>
+            <button id="snake"> <h1>  Snake? </h1></button>
+        <br><br>
+        <iframe width="185" height="175" src="https://www.youtube.com/embed/ZLMxZLgSXzw?si=KAS-Y5VPkLLFcaHC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <iframe width="185" height="175" src="https://www.youtube.com/embed/jEb1Zh8eptg?si=Xkx_MzG9JljIJwF5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="185" height="175" src="https://www.youtube.com/embed/t8ZGAzsGi2s?si=pW3Cos_pncxrURph" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="185" height="175" src="https://www.youtube.com/embed/B_pWTlN15bc?si=U1z9wfXYfsE5d3NM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="185" height="175" src="https://www.youtube.com/embed/4lfds7rdcEg?si=ItKLXOKiOvUPiQjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </main>
+        <br><br>
+        <footer class="footer">  
+            <h2> badger badger badger... </h2>
+        </footer> 
+    </div>
+    <div class="cajaDos" align="center">
+        <header class="headerDos"> 
+            <h1> THIS IS SPARTA </h1> 
+        </header>
+        <banner class="bannerDos"> 
+            <br> 
+        </banner>
+        <button class="button-1" style="background-color:brown"><a href="/nostalgia" style="color:#FFFFFF">  regresar a la pagina principal </a></button>
+        <main class="mainDos"> 
+            <h1> THIS IS SPARTA </h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rvYZRskNV3w?si=aJfJ1WQDv6-2W9S6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <div class="sparta"> 
+            <br>
+            <button id="sparta"> <h1> THIS IS </h1></button>
+            <br>
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/this-is-sparta/embed/" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </main>
+        <footer class="footerDos">  
+            <h2> THIS IS SPARTA </h2>
+        </footer>  
+    </div>
+    <div class="cajaTres" align="center">
+        <br>
+        <banner class="bannerTres"> 
+            <br> 
+        </banner>
+        <main class="main"> 
+            <h1> Annoying Orange </h1>
+            <button class="button-1" style="background-color:orangered"><a href="/nostalgia" style="color:#FFFFFF">  regresar a la pagina principal </a></button>
+            <br><br>
+            <h1> Videos clásicos: </h1>
+            <div class="carousel-container">
+            <% for (let i = 0; i < miniatura.length; i++) { %>
+            <div class="cuadradote"> 
+            <h2> <%= titulo[i]  %></h2>
+            <button> <a href="https://www.youtube.com/watch?v=<%= videoId[i] %>" target="_blank" style="color:orangered"> mirar </a>  </button> <br><br>
+            <img src= "<%= miniatura[i] %>" width="200px" height="150px" class="carousel-slide">
+            </div>
+            <% } %>
+            </div>
+            <h1> Serie cartoon network:  </h1>
+            <button id="avisoNaranja" class="avisoNaranja"> <h1>  aviso </h1></button>
+            <div class="carousel-container">
+            <% for (let i = 0; i < miniatura.length; i++) { %>
+            <div class="cuadradote"> 
+            <h2> <%= titulo2[i]  %></h2>
+            <button> <a href="https://www.youtube.com/watch?v=<%= videoId2[i] %>" target="_blank" style="color:orangered"> mirar </a>  </button> <br><br>
+            <img src= "<%= miniatura2[i] %>" width="200px" height="150px" class="carousel-slide">
+            </div>
+            <% } %>
+            </div>
+            <h1> Memes y fanarts: </h1>
+            <button class="avisoNaranja"> <a href="/webMeme">  <h1> ¡Sube tu momo :v! </h1> </a></button> <br><br>
+            <div class="carousel-container"> 
+            <% meme.forEach(meme=>{ %>
+            <div class="cuadradote"> 
+
+                <form action="deletee/<%= meme.id %>?_method=delete" method="post">
+                    <button type="submit"> Borrar </button>
+                    <form action="/delete/<%= meme.id %>" method="post">
+                      <input type="hidden" name="_method" value="delete">
+                    </form>
+
+          <img src="<%= meme.link %>" width="260px" height="210px" class="carousel-slide"> 
+            </div> 
+            <% }) %>
+            </div>
+        <br><br>
+           <button style="background-color:orangered"><a href="/naranjaDolares"><h1> naranjadolares gratis ¡presiona aquí! </h1> </a> </button>
+
+        </main>
+        <br><br>
+        <footer class="footer">  
+            <h2> Keep walking </h2>
+        </footer>
+    </div>
+    <div class="cajaCuatro" align="center">
+        
+            <h1> NYAN CAT!!!!! </h1> 
+        
+        <banner class="bannerCuatro"> 
+            <br> 
+        </banner>
+        <main class="main"> 
+            <audio controls class="audio">
+            <source src="/js/Y2meta.app - Nyan Cat (Letra) (192 kbps).mp3" type="audio/mp3">
+        </audio>
+        <br><br>
+            <button style="background-color:blue"><a href="/nostalgia" style="color:#FFFFFF">  regresar a la pagina principal </a></button>
+            <button id="nyanboton" style="background-color:blue"> Sorpresa....</button> 
+         <br><br>
+
+<img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" width="240px" height="162px" class="imagun">
+
+        <br><br><br><br><br><br>
+        <h1> Gifs random de Nyan Cat :P</h1>
+         <div class="cajita" width="200px"> 
+            <img src="<%= gifUrl %>" alt="Gif" width="250px" height="250px">
+        </div> 
+        <div class="cajita" width="200px"> 
+            <img src="<%= gifUrl2 %>" alt="Gif" width="250px" height="250px">
+        </div>
+        </main>
+        <br><br>
+</div>
+
+<div class="jueguito" >
+    <main class="main"> 
+ <h1 align="center"> :3 </h1>
+ <div class="relative">
+ <div class="botoniones"> 
+<br><br><br><br><br><br><br><br>
+<button onclick="botonArriba()"><h1>ADELANTE</h1></button>
+<button onclick="botonAbajo()"><h1>ATRAS</h1></button>
+</div>
+<div class="filaNyan"> 
+    <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" class="imagenAbajo primeraImagen" data-imagen="imagen1">
+    <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" class="imagenAbajo" data-imagen="imagen2">
+    <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" class="imagenAbajo" data-imagen="imagen3">
+</div>
+<div class="filaNyan">
+    <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" class="imagenAbajo" data-imagen="imagen4">
+    <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" class="imagenAbajo" data-imagen="imagen5">
+    <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" class="imagenAbajo" data-imagen="imagen6">
+</div>
+<div class="filaNyan">
+    <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" class="imagenAbajo" data-imagen="imagen7">
+    <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" class="imagenAbajo" data-imagen="imagen8">
+    <img src="https://res.cloudinary.com/dduyxqrqt/image/upload/v1702852501/1702852497736.gif" class="imagenAbajo" data-imagen="imagen9">
+</div> </div>
+</main>
+   
+</div>
+    <div class="cajaCinco" align="center">
+        <header class="header"> 
+            <h1> Páginas relacionadas con la nostalgia de admin :p </h1> 
+        </header>
+        <banner class="bannerDos"> 
+            <br> 
+        </banner>
+        <main class="main"> 
+            <button> <h1> Loquendo City and Animecore (=^ ◡ ^=) </h1> </button>
+            <button class="button-1"><a href="/nostalgia" style="color:#FFFFFF">  regresar a la pagina principal </a></button>
+        </main>
+        <br><br>
+        <footer class="footer">  
+            <h2> Keep walking </h2>
+        </footer>
+</div>
+<div class="cajaCinco" align="center">
+    <header class="header"> 
+        <h1> Páginas relacionadas con la nostalgia de admin :p </h1> 
+    </header>
+    <banner class="bannerDos"> 
+        <br> 
+    </banner>
+    <main class="main"> 
+        <h1> Smosh when it was good </h1>
+        <button class="button-1"><a href="/nostalgia" style="color:#FFFFFF">  regresar a la pagina principal </a></button>
+    </main>
+    <br><br>
+    <footer class="footer">  
+        <h2> Keep walking </h2>
+    </footer>
+</div>
+<div class="cajaSeis" align="center">
+    <main class="main"> 
+        <h1> keep calm and leek spin!!! :D  </h1>
+        <iframe src="https://leekspin.com/" width="800" height="600" frameborder="0"></iframe>
+        <br><br>
+        <button class="button-1"><a href="/nostalgia" style="color:#FFFFFF">  regresar a la pagina principal </a></button>
+        <br><br>
+    </main>
+</div>
+<div class="cajaS7" align="center">
+    <main class="main"> 
+        <h1> Para cuando estés con baja autoestima :3 </h1>
+        <iframe width="100%" height="515" src="https://www.youtube.com/embed/hiRacdl02w4?si=6sMJx2KSxQBDzkUq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </main>
+</div>
+    <script src="/js/scriptOldWeb.js"> </script>
+    </body>
+</html>

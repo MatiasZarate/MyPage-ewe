@@ -1,5 +1,6 @@
 window.addEventListener("load", function(){
     let nyancat = document.getElementById("nyancat")
+    let nostalgia = document.getElementById("nostalgia")
     let enProceso = document.querySelectorAll(".enProceso")
 
 nyancat.addEventListener("click", function (){
@@ -31,5 +32,18 @@ enProceso.forEach(function(button){
             window.location.href = "/";
         }})
     })
+}),
+nostalgia.addEventListener("click", function(){
+Swal.fire({
+    title: "Feeling nostalgic huh?",
+    text: "that's fine",
+    imageUrl: "https://res.cloudinary.com/dduyxqrqt/image/upload/v1700947626/1700947620890.png",
+    imageWidth: 400,
+    imageHeight: 200,
+    imageAlt: "Custom image"
+  }).then((result) => {
+          if (result.isConfirmed) {
+              window.location.href = "/nostalgia";
+          }})
 })
 })

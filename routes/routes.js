@@ -1,5 +1,6 @@
 const homeController = require('./../controllers/homeController');
 const catController = require('./../controllers/catController');
+const nostalgiaController = require('./../controllers/nostalgiaController')
 
 const express = require("express");
 const router = express.Router();
@@ -34,5 +35,12 @@ router.post("/cargaVideo", catController.cargaVideoDos)
 router.get("/listaVideos", catController.listaVideos)
 router.delete("/delete/:id", catController.delete);
 
-
+router.get("/nostalgia", nostalgiaController.nostalgia)
+router.get("/frutigerAero", nostalgiaController.frutigerAero)
+router.get("/oldInternet", nostalgiaController.oldInternet)
+router.get("/oldBr", nostalgiaController.oldBr)
+router.get("/naranjaDolares", nostalgiaController.naranjaDolares)
+router.get("/webMeme", nostalgiaController.webMeme)
+router.post("/webMeme", uploadFile.single('imagen'), nostalgiaController.webMeme2)
+router.delete("/deletee/:id", nostalgiaController.delete);
 module.exports = router;

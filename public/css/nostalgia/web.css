@@ -1,0 +1,365 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*general*/
+.bodydos{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701523720/1701523720138.jpg") !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+}
+
+/*old youtube*/
+.header{
+    background-color: rgb(0, 242, 255);
+}
+.banner{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701206712/1701206710972.gif") !important;
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 670px;
+    height: 185px;
+}
+.main{
+    background-color: rgba(251, 184, 137, 0);
+}
+.footer{
+    
+    background-color: rgb(0, 242, 255);
+}
+
+.caja{
+    border: solid 5px black;
+    color:black;
+    background-color: greenyellow;
+    width: 75%; 
+    height: 100%;
+}
+/*SPARTA*/
+/*.headerDos{
+    background-color: rgba(255, 0, 0, 0);
+}*/
+.bannerDos{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701347913/1701347908801.gif") !important;
+    color: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 670px;
+    height: 185px;
+}
+/*.mainDos{
+    background-color: rgba(251, 184, 137, 0);
+}
+.footerDos{
+    
+    background-color: rgba(188, 122, 122, 0);
+}*/
+.cajaDos{
+    border: solid 5px black;
+    background-color:saddlebrown;
+    /*background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701347974/1701347973594.jpg") !important;*/
+    width: 75%; 
+    height: 100%;
+}
+.sparta {
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701347974/1701347973594.jpg");
+    border: 5px solid black;
+    box-sizing: content-box;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+/*Orange*/
+.cajaTres{
+    border: solid 5px black;
+    color:black;
+    background-color: orange;
+    width: 75%; 
+    height: 100%;
+}
+.bannerTres{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701206734/1701206734584.jpg") !important;
+    color: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 670px;
+    height: 185px;
+}
+.jumpscare{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.botonsustomiedoaaa{
+    color: orange;
+    height: 165px;
+    font-size: 20px;
+  }
+.naranjita{
+    height: 200px;
+    width: 200px;
+}
+.cuadradote{
+    background-color: white;
+    border: solid 5px black;
+}
+.avisoNaranja{
+    background-color:orangered
+}
+/*carrusel*/
+
+.carousel-container {
+    width: 100%;
+    padding-block: 16px 32px;
+    margin: 16px 32px;
+    overflow-x: auto;
+    display: flex;
+    width: 85%;
+    gap: 8px;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+  }
+  .carousel-slide {
+    flex: 1 0 30%;
+    aspect-ratio: 1;
+    flex-flow: column nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bae;
+    scroll-snap-align: center;
+  }
+
+/*NYAN CAT*/
+.cajaCuatro{
+    border: solid 5px black;
+    color:black;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1702849970/1702849969270.jpg");
+    background-color: rgb(255, 255, 255);
+    width: 75%; 
+    height: 100%;
+}
+.bannerCuatro{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701207769/1701207762352.gif") !important;
+    color: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 495px;
+    height: 185px;
+}
+.audio{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1702936801/1702936800072.jpg") !important;
+    color: green;
+    width: 100%;
+    max-width: 400px; 
+    flex-direction: column;
+}
+
+.jueguito{
+    border: solid 5px black;
+    color:black;
+    background-color: white;
+    width: 75%; 
+    height: 100%;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1702936801/1702936800072.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+/*.botoniones{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: left !important;
+}
+.filaNyan{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+}
+.relative{
+display:flex;
+flex-wrap: wrap;
+}*/
+/*.relative {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.botoniones {
+    display: flex;
+    flex-direction: column;
+}
+
+.filaNyan {
+    display: flex;
+    flex-direction: row;
+}
+
+.filaNyan img {
+    margin: 5px; 
+}*/
+.relative {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.botoniones {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+}
+
+.filaNyan {
+    display: flex;
+    flex-wrap: wrap; 
+}
+.imagenAbajo{
+    visibility: hidden;
+}
+.primeraImagen{
+    visibility: visible;
+}
+/**/
+.cajaCinco{
+    border: solid 5px black;
+    color:black;
+    background-color: white;
+    width: 75%; 
+    height: 100%;
+}
+/*LEEK SPIN*/
+.cajaSeis{
+    border: solid 5px black;
+    color:black;
+    background-color: pink;
+    width: 75%; 
+    height: 100%;
+}
+/*you´re an idiot*/
+.cajaS7{
+    border: solid 5px black;
+    color:black;
+    background-color: red;
+    width: 75%; 
+    height: 100%;
+}
+
+/*indefinido*/
+
+.mosqueteros{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.cajita {
+    background-color: rgba(8, 8, 195, 0.777);
+    border: 5px solid black;
+    box-sizing: content-box;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+}
+.cajita2{
+    background-color: azure;
+    border: 5px solid black;
+    box-sizing: content-box;
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+}
+.button-1 {
+    background-color: #69ea4c;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; 
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+.button-1:hover,
+.button-1:focus {
+  background-color: #82d6f0;
+}
+
+
+
+    @media (max-width:360px )/*celulares chiquitos*/{
+        body{
+              .caja{
+                flex-wrap: wrap;
+                width: 100% !important;
+                align-items: center;
+              .cajita{
+                flex-wrap: nowrap;
+                width: 100% !important;
+                align-items: center;
+              }
+              .bannerDos {
+                width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+                height: auto; /* Ajustar la altura automáticamente */
+            }
+            .iframe{
+                width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+                height: auto; /* Ajustar la altura automáticamente */
+            }
+        }
+        }
+    }
+    
+    @media (max-width:880px )/*tablets*/{
+        body{
+              .caja{
+                flex-wrap: wrap;
+                width: 75%;
+                align-items: center;
+              .cajita{
+                flex-wrap: wrap;
+                width: 100%;
+                align-items: center;
+              }
+              .bannerDos {
+                width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+                height: auto; /* Ajustar la altura automáticamente */
+            }
+            .iframe{
+                width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+                height: auto; /* Ajustar la altura automáticamente */
+            }
+        }
+        }
+    }

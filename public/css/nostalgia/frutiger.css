@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bodydos{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701177156/1701177147900.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header{
+    background-color: rgba(137, 245, 251, 0);
+}
+
+.bannerDos{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701177184/1701177183493.png") !important;
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 950px;
+    height: 185px;
+}
+.main{
+    background-color: rgba(251, 184, 137, 0);
+}
+.footer{
+    
+    background-color: rgba(137, 245, 251, 0);
+}
+
+
+.caja{
+    border: solid 5px black;
+    background-color: rgba(137, 245, 251, 0.979);
+    width: 75%; 
+    /*background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1701005986/1701005987911.jpg") !important;*/
+}
+
+.mosqueteros{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.cajita {
+    background-color: palegreen;
+    border: 5px solid black;
+    box-sizing: content-box;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+}
+.cajita2{
+    background-color: azure;
+    border: 5px solid black;
+    box-sizing: content-box;
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+}
+.button-1 {
+    background-color: #69ea4c;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; 
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+.button-1:hover,
+.button-1:focus {
+  background-color: #82d6f0;
+}
+
+
+
+    @media (max-width:360px )/*celulares chiquitos*/{
+        body{
+              .caja{
+                flex-wrap: wrap;
+                width: 100% !important;
+                align-items: center;
+              .cajita{
+                flex-wrap: nowrap;
+                width: 100% !important;
+                align-items: center;
+              }
+              .bannerDos {
+                width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+                height: auto; /* Ajustar la altura automáticamente */
+            }
+            .iframe{
+                width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+                height: auto; /* Ajustar la altura automáticamente */
+            }
+        }
+        }
+    }
+    
+    @media (max-width:880px )/*tablets*/{
+        body{
+              .caja{
+                flex-wrap: wrap;
+                width: 75%;
+                align-items: center;
+              .cajita{
+                flex-wrap: wrap;
+                width: 100%;
+                align-items: center;
+              }
+              .bannerDos {
+                width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+                height: auto; /* Ajustar la altura automáticamente */
+            }
+            .iframe{
+                width: 100%; /* Cambiar el ancho para pantallas más pequeñas */
+                height: auto; /* Ajustar la altura automáticamente */
+            }
+        }
+        }
+    }

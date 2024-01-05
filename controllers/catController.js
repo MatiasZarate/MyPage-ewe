@@ -25,7 +25,7 @@ const controlador= {
     order: Sequelize.literal('RAND()'),
     raw: true, // Agrega esta línea para obtener un objeto plano en lugar de un modelo Sequelize
 })
- 
+  
 
   Promise.all([gif1, gif2, gif3]) 
       .then(([response1, response2, response3]) => {
