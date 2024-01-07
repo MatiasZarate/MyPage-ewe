@@ -176,41 +176,6 @@
     background-size: cover; 
     background-repeat: no-repeat;
 }
-/*.botoniones{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: left !important;
-}
-.filaNyan{
-    width: 25%;
-    display: flex;
-    flex-direction: row;
-    align-items: center !important;
-}
-.relative{
-display:flex;
-flex-wrap: wrap;
-}*/
-/*.relative {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.botoniones {
-    display: flex;
-    flex-direction: column;
-}
-
-.filaNyan {
-    display: flex;
-    flex-direction: row;
-}
-
-.filaNyan img {
-    margin: 5px; 
-}*/
 .relative {
     display: flex;
     flex-direction: row;
@@ -258,7 +223,33 @@ flex-wrap: wrap;
     width: 75%; 
     height: 100%;
 }
-
+/*imafiremahlazer*/
+.cajaS8{
+    border: solid 5px black;
+    color:black;
+    background-color: aqua;
+    width: 75%; 
+    height: 100%;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1704636063/1704636052780.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.cellUno{
+    visibility: visible;
+    position: absolute;
+    left: 25%;
+}
+.cellDos{
+    visibility: hidden;
+    position: absolute;
+    left: 25%;
+}
+.twoimageshavingsxe{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 /*indefinido*/
 
 .mosqueteros{

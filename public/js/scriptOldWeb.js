@@ -5,6 +5,7 @@ window.addEventListener("load", function(){
     let snake = document.getElementById("snake")
     let avisoNaranja = document.getElementById("avisoNaranja")
     let nyanboton = document.getElementById("nyanboton")
+    let imafiremahlazer = document.getElementById("imafiremahlazer")
     let currentIndex = 0;
     
 
@@ -65,7 +66,15 @@ window.addEventListener("load", function(){
         url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1702991503/1702991496664.gif") left top no-repeat
       `
     });
-   }),
+   })
+   window.imafiremahlazer = function(){
+    var cellUno = document.getElementById("cellUno")
+    var cellDos = document.getElementById("cellDos")
+    var bwaaa = document.getElementById("bwaaa")
+    cellUno.style.visibility = "hidden"
+    cellDos.style.visibility = "visible"
+    bwaaa.play();
+   }
    window.botonAbajo = function() {
     const imagenesAbajo = document.querySelectorAll('.imagenAbajo');
     const totalImagenes = imagenesAbajo.length;
